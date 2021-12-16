@@ -1,191 +1,202 @@
-##############################
-## Package Files            ##
-##############################
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar
-*.pid
-*.tar.gz
-*.rar
-##############################
-## clipse & IntelliJ IDEA   ##
-##############################
 .settings/
 .idea
-*.iws
-*.iml
-*.ipr
-.settings
-.project
-.flattened-pom.xml
-*.lock
-rebel.xml
-.classpath
-.gitignore
-.metadata
-app/.gitignore
-*.class
-*.apk
-*.[oa]
-*.ap_
-*.dex
-##############################
-## Maven                    ##
-##############################
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
-##############################
-## Log file                 ##
-##############################
+/target/
 logs/
 log/
 *.log
+.settings
+*.class
+########################################################################
 ##############################
-## docker                   ##
-##############################
-### docker ####
-docker/
-Desktop.ini
-*.ctxt
-##############################
-## Windows Installer files  ##
-##############################
-*.cab
-*.msi
-*.msm
-*.msp
-##############################
-## mpeltonen/sbt-idea plugin##
-##############################
-.idea_modules/
-##############################
-## Crashlytics plugin (for An-
-## droid Studio and IntelliJ)#
-##############################
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
-##############################
-## JIRA plugin              ##
-##############################
-atlassian-ide-plugin.xml
-##############################
-## Gradle                   ##
-##############################
-.gradle
-.gradle/
-build/
-**/build/
-!src/**/build/
-gradle-app.setting
-!gradle-wrapper.jar
-.gradletasknamecache
-gradle/wrapper/gradle-wrapper.properties
-gradle.properties
-##############################
-## NetBeans                 ##
-##############################
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-!**/src/main/**/build/
-!**/src/test/**/build/
-nbproject/private/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-##############################
-## STS                      ##
-##############################
-.apt_generated
-.factorypath
-.springBeans
-bin/
-##############################
-## system ignore            ##
-##############################
-.DS_Store
-Thumbs.db
-Servers
-upload
-gen_code
-##############################
-## node                     ##
-##############################
-node_modules
-##############################
-## qtcreator generated files##
-##############################
-*.pro.user*
-##############################
-## Vim temporary files      ##
-##############################
-.*.swp
-##############################
-## Folders                  ##
-##############################
-target
-!core/
-tags
-##############################
-## Netbeans conf            ##
-##############################
-nb-configuration.xml
-nbactions.xml
-##############################
-## temp ignore              ##
-##############################
-*.cache
-*.diff
-*.patch
-*.tmp
-*.java~
-*.properties~
-*.xml~
-##############################
-## Other                    ##
-##############################
-*~
-*.autosave
-*.a
-*.core
-*.moc
-*.o
-*.obj
-*.orig
-*.rej
-*.so
-*.so.*
-*_pch.h.cpp
-*_resource.rc
-*.qm
-.#*
-*.*#
-core
-.directory
-*.debug
-Makefile*
-*.prl
-*.app
-moc_*.cpp
-ui_*.h
-qrc_*.cpp
-*.res
-*.rc
-/.qmake.cache
-/.qmake.stash
+### Package Files            ##
+###############################
+#*.jar
+#*.war
+#*.nar
+#*.ear
+#*.zip
+#*.tar
+#*.pid
+#*.tar.gz
+#*.rar
+###############################
+### clipse & IntelliJ IDEA   ##
+###############################
+#.settings/
+#.idea
+#*.iws
+#*.iml
+#*.ipr
+#.settings
+#.project
+#.flattened-pom.xml
+#*.lock
+#rebel.xml
+#.classpath
+#.gitignore
+#.metadata
+#app/.gitignore
+#*.class
+#*.apk
+#*.[oa]
+#*.ap_
+#*.dex
+#
+###############################
+### Maven                    ##
+###############################
+#target/
+#pom.xml.tag
+#pom.xml.releaseBackup
+#pom.xml.versionsBackup
+#pom.xml.next
+#release.properties
+#dependency-reduced-pom.xml
+#buildNumber.properties
+#.mvn/timing.properties
+#.mvn/wrapper/maven-wrapper.jar
+###############################
+### Log file                 ##
+###############################
+#logs/
+#log/
+#*.log
+###############################
+### docker                   ##
+###############################
+#### docker ####
+#docker/
+#Desktop.ini
+#*.ctxt
+###############################
+### Windows Installer files  ##
+###############################
+#*.cab
+#*.msi
+#*.msm
+#*.msp
+###############################
+### mpeltonen/sbt-idea plugin##
+###############################
+#.idea_modules/
+###############################
+### Crashlytics plugin (for An-
+### droid Studio and IntelliJ)#
+###############################
+#com_crashlytics_export_strings.xml
+#crashlytics.properties
+#crashlytics-build.properties
+#fabric.properties
+###############################
+### JIRA plugin              ##
+###############################
+#atlassian-ide-plugin.xml
+###############################
+### Gradle                   ##
+###############################
+#.gradle
+#.gradle/
+#build/
+#**/build/
+#!src/**/build/
+#gradle-app.setting
+#!gradle-wrapper.jar
+#.gradletasknamecache
+#gradle/wrapper/gradle-wrapper.properties
+#gradle.properties
+###############################
+### NetBeans                 ##
+###############################
+#/nbproject/private/
+#/nbbuild/
+#/dist/
+#/nbdist/
+#/.nb-gradle/
+#!**/src/main/**/build/
+#!**/src/test/**/build/
+#nbproject/private/
+#nbbuild/
+#dist/
+#nbdist/
+#.nb-gradle/
+###############################
+### STS                      ##
+###############################
+#.apt_generated
+#.factorypath
+#.springBeans
+#bin/
+###############################
+### system ignore            ##
+###############################
+#.DS_Store
+#Thumbs.db
+#Servers
+#upload
+#gen_code
+###############################
+### node                     ##
+###############################
+#node_modules
+###############################
+### qtcreator generated files##
+###############################
+#*.pro.user*
+###############################
+### Vim temporary files      ##
+###############################
+#.*.swp
+###############################
+### Folders                  ##
+###############################
+#target
+#!core/
+#tags
+###############################
+### Netbeans conf            ##
+###############################
+#nb-configuration.xml
+#nbactions.xml
+###############################
+### temp ignore              ##
+###############################
+#*.cache
+#*.diff
+#*.patch
+#*.tmp
+#*.java~
+#*.properties~
+#*.xml~
+###############################
+### Other                    ##
+###############################
+#*~
+#*.autosave
+#*.a
+#*.core
+#*.moc
+#*.o
+#*.obj
+#*.orig
+#*.rej
+#*.so
+#*.so.*
+#*_pch.h.cpp
+#*_resource.rc
+#*.qm
+#.#*
+#*.*#
+#core
+#.directory
+#*.debug
+#Makefile*
+#*.prl
+#*.app
+#moc_*.cpp
+#ui_*.h
+#qrc_*.cpp
+#*.res
+#*.rc
+#/.qmake.cache
+#/.qmake.stash
+########################################################################
